@@ -1,0 +1,59 @@
+{
+  "name": "collegizer-server",
+  "description": "College Management System",
+  "version": "0.0.1",
+  "homepage": "http://collegesodh.com",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "Bharat Singh Rajput",
+    "email": "bharatsr1997@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/",
+    "config": "config/"
+  },
+  "engines": {
+    "node": "^12.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run jest",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "dev": "nodemon src/",
+    "start": "node src/",
+    "jest": "jest  --forceExit"
+  },
+  "dependencies": {
+    "@feathersjs/authentication": "^4.5.8",
+    "@feathersjs/authentication-local": "^4.5.8",
+    "@feathersjs/authentication-oauth": "^4.5.8",
+    "@feathersjs/configuration": "^4.5.8",
+    "@feathersjs/errors": "^4.5.8",
+    "@feathersjs/express": "^4.5.8",
+    "@feathersjs/feathers": "^4.5.8",
+    "@feathersjs/transport-commons": "^4.5.8",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "feathers-blob": "^2.2.0",
+    "feathers-sequelize": "^6.2.0",
+    "fs-blob-store": "^5.2.1",
+    "helmet": "^3.23.3",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.1",
+    "sequelize": "^5.22.3",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "axios": "^0.20.0",
+    "eslint": "^6.8.0",
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
