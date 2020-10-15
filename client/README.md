@@ -1,4 +1,4 @@
-# collegizer
+# College-Sodh-Client
 
 ## Project setup
 ```
